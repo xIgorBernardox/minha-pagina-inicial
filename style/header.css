@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.title {
+  font-family: var(--home-title);
+  font-size: 30px;
+  font-weight: 400;
+
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+/* Dedicatória */
+header .dedicate {
+  font-family: var(--alt-text);
+}
+
+body header .dedicate p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+header .dedicate p {
+  /* font */
+  font-family: var(--alt-text);
+  font-weight: 500;
+
+  /* decoration */
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 8px 0 8px 5px;
+
+  /* Background */
+  background: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 50px );
+  border-radius: 10px;
+}
+
+header .dedicate a {
+  display: inline;
+  font-size: 10px;
+  color: black;
+  padding: 0;
+  margin-left: 5px;
+  cursor: pointer;
+}

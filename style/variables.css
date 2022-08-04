@@ -1,0 +1,16 @@
+:root {
+  /* fonts */
+  --home-title: 'Mochiy Pop One', sans-serif;
+  --sub-title: 'Ubuntu', sans-serif;
+  --alt-text: 'Roboto', sans-serif;
+
+  /* Cores background */
+  --color-bg-light: #00DBDE;
+  --color-bg-dark: #FF3CAC;
+  --color-bg-gradient-1: #00DBDE;
+  --color-bg-gradient-2:#FC00FF;
+
+  /* cores texto */
+  --sub-title-dark-theme: rgb(240, 213, 248);
+
+}

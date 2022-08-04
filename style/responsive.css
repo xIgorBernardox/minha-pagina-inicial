@@ -1,0 +1,432 @@
+/* Responsivo */
+/* TVS */
+@media (min-width: 1201px) {
+  .home a {
+    margin-top: 0;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 29px;
+  }
+
+  header .dedicate {
+    display: inline;
+    margin-left: 500px;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 11px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 11px;
+  }
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 230px);
+  
+    justify-content: center;
+    justify-items: center;
+    
+    padding: 10px;
+    margin-top: 90px;
+    max-width: 200px;
+  }
+
+  /* FOOTER */
+  footer .wave-content {
+    margin-top: -14%;
+  }
+
+  footer .copy {
+   margin-top: -110px;
+  }
+
+  body {
+    overflow-y: hidden;
+  }
+
+}
+
+
+/* Desktops, Telas Grandes  */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .home a {
+    margin-top: 5px;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 26px;
+  }
+
+  header .dedicate {
+    display: inline;
+    margin-left: 480px;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 15px;
+  }
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 210px);
+  
+    justify-content: center;
+    justify-items: center;
+    
+    padding: 10px;
+    margin-top: 80px;
+    max-width: 200px;
+  }
+
+  main .links-container div .sub-title {
+    font-size: 15px;
+  }
+
+  .links-container div {
+    width: 18em;
+    height: 18em;
+  }
+
+  .links-container div a {
+    padding: 5px;
+  }
+
+  /* FOOTER */
+  footer .wave-content {
+    margin: -7%;
+  }
+
+}
+
+/* Telas pequenas, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home a {
+    margin-top: 5px;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 20px;
+  }
+
+  header .dedicate {
+    display: inline;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 200px);
+    padding: 10px;
+    margin-top: 75px;
+  }
+
+  main .links-container div {
+    width: 17em;
+    height: 13.8em;
+  }
+  main .links-container div .sub-title {
+    font-size: 15px;
+    padding: 2px;
+  }
+
+  main .links-container a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1px;
+    padding: 1.8px;
+  }
+
+.links-container div ul li a img {
+  width: 1.8em;
+  height: 1.6em;
+  margin-left: 3px;
+}
+
+  /* FOOTER */
+  footer .wave-content {
+    margin: -5%;
+  }
+
+  footer .copy {
+    margin: -135px;
+  }
+
+}
+
+/* Ipads, tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .home a {
+    margin-top: 0;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 20px;
+  }
+
+  header .dedicate {
+    display: inline;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 180px);
+    padding: 10px;
+    margin-top: 80px;
+  }
+
+  main .links-container div {
+    width: 15em;
+    height: 13em;
+  }
+  main .links-container div .sub-title {
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  main .links-container a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 11px;
+    margin: 2px;
+    padding: 3px;
+  }
+
+.links-container div ul li a img {
+  width: 1.2em;
+  height: 1.2em;
+  margin-left: 5px;
+}
+
+  /* FOOTER */
+  footer .wave-content {
+    margin: 6%;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  footer .copy {
+    margin-top: -180px;
+  }
+
+}
+
+/* Dispositivos móveis */
+@media (min-width: 320px ) and (max-width: 480px) {
+  .home a {
+    margin-top: 0;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 16px;
+  }
+
+  header .dedicate {
+    display: inline;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(2, 180px);
+    padding: 10px;
+    margin-top: 85px;
+  }
+
+  main .links-container div {
+    width: 15em;
+    height: 11.9em;
+  }
+  main .links-container div .sub-title {
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  main .links-container a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 11px;
+    margin: 0;
+    padding: 2px;
+  }
+
+.links-container div ul li a img {
+  width: 1.4em;
+  height: 1.4em;
+  margin-left: 5px;
+}
+
+  /* FOOTER */
+  footer .wave-content {
+    margin: -12%;
+  }
+
+  footer .copy {
+    margin-top: 0;
+  }
+
+  footer .copy p {
+    font-size: 8px;
+  }
+
+  footer .copy p a {
+    font-size: 8px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .home a {
+    margin: 0;
+  }
+
+  .home a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .home a h1 {
+    display: inline;
+    font-size: 10px;
+  }
+
+  header .dedicate {
+    display: inline;
+  }
+
+  header .dedicate p {
+    display: inline;
+    font-size: 10px;
+    padding: 15px;
+  }
+
+  header .dedicate p a{
+    display: inline;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  /* MAIN CONTENT */
+  main .links-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 100px);
+    padding: 10px;
+    margin-top: 75px;
+  }
+
+  main .links-container div {
+    width: 20em;
+    height: 12.8em;
+  }
+  main .links-container div .sub-title {
+    padding: 0;
+  }
+
+  main .links-container a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 4px;
+    padding: 1px;
+  }
+
+.links-container div ul li a img {
+  width: 1.4em;
+  height: 1.4em;
+  margin-left: 5px;
+}
+
+  /* FOOTER */
+  footer .wave-content {
+    margin-top: 0;
+  }
+
+  footer .copy {
+    margin-top: -12%;
+  }
+
+  footer .copy p {
+    font-size: 6px;
+  }
+
+  footer .copy p a {
+    font-size: 6px;
+  }  
+
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+
